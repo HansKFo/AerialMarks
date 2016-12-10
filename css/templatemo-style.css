@@ -27,7 +27,7 @@ a:focus {
 	outline: none;
 }
 
-.tm-brand-icon { 
+.tm-brand-icon {
 	padding: 15px;
     background: black;
     border-radius: 50%;
@@ -49,8 +49,8 @@ a:focus {
 	background: none;
 }
 
-.cd-slider-nav nav { 
-	width: 100%; 
+.cd-slider-nav nav {
+	width: 100%;
 	padding: 0 10px;
 }
 
@@ -60,10 +60,10 @@ a:focus {
 	vertical-align: top;
 }
 
-.cd-slider-nav li { 
+.cd-slider-nav li {
 	display: block;
 	float: none;
-	width: auto;	
+	width: auto;
 }
 
 .tm-navbar { float: right; }
@@ -144,9 +144,9 @@ button:focus { outline: none; }
 
 .cd-hero-slider p { color: black; }
 
-.cd-hero-slider .tm-text { 
+.cd-hero-slider .tm-text {
 	font-size: 1em;
-	line-height: 1.8; 
+	line-height: 1.8;
 }
 
 .tm-2-col-container { max-width: 800px; }
@@ -154,19 +154,19 @@ button:focus { outline: none; }
 
 .tm-2-col-container,
 .tm-3-col-container {
-	margin: 0 auto;	
+	margin: 0 auto;
 }
 
 .tm-2-col-container { padding: 20px 30px; }
-.tm-3-col-container { 
-	-ms-flex-direction: column; 
+.tm-3-col-container {
+	-ms-flex-direction: column;
 	    flex-direction: column;
-	padding: 0; 
+	padding: 0;
 }
 
-.tm-2-col-textbox { 
-	max-width: 600px; 
-	-ms-flex: 0 1 auto; 
+.tm-2-col-textbox {
+	max-width: 600px;
+	-ms-flex: 0 1 auto;
 	    flex: 0 1 auto; /* Fix flexbox in IE 10 bug https://philipwalton.com/articles/normalizing-cross-browser-flexbox-bugs/ */
 }
 
@@ -193,7 +193,7 @@ button:focus { outline: none; }
 .tm-footer {
 	position: absolute;
 	bottom: 0;
-	left: 0;	
+	left: 0;
 }
 
 .tm-footer {
@@ -201,6 +201,7 @@ button:focus { outline: none; }
     color: white;
     z-index: 1001;
     padding: 0 11px 12px;
+    text-align: center;
 }
 
 .tm-social-icons-container { margin-bottom: 30px; }
@@ -261,7 +262,7 @@ button:focus { outline: none; }
 
 textarea { height: 168px; }
 
-/* Preloader 
+/* Preloader
 	https://ihatetomatoes.net/create-custom-preloading-screen/
 */
 /* ==========================================================================
@@ -292,22 +293,22 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 
 /* Loaded */
 .loaded #loader-wrapper .loader-section.section-left {  /* Chrome, Opera 15+, Safari 3.1+ */  /* IE 9 */
-	transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */  
+	transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
 	transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
 
 .loaded #loader-wrapper .loader-section.section-right {  /* Chrome, Opera 15+, Safari 3.1+ */  /* IE 9 */
-	transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */  
+	transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
 	transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
 
 .loaded #loader {
-	opacity: 0;  
+	opacity: 0;
 	transition: all 0.3s ease-out;
 }
 .loaded #loader-wrapper {
 	visibility: hidden;  /* Chrome, Opera 15+, Safari 3.1+ */  /* IE 9 */
-	transform: translateY(-100%);  /* Firefox 16+, IE 10+, Opera */  
+	transform: translateY(-100%);  /* Firefox 16+, IE 10+, Opera */
 	transition: all 0.3s 1s ease-out;
 }
 
@@ -325,10 +326,10 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 
 .cd-slider-nav .navbar-nav { background-color: rgba(255,255,255,0.7); }
 
-.cd-slider-nav a, 
+.cd-slider-nav a,
 .navbar-nav .nav-link { height: 50px; }
 
-.tm-brand-icon { 
+.tm-brand-icon {
 	font-size: 2rem;
 	padding: 10px;
 }
@@ -343,7 +344,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 
 .cd-full-width .container-fluid { margin-top: -80px; }
 
-.tm-2-col-container-2 {		
+.tm-2-col-container-2 {
 	max-width: 830px;
 	margin: 0 auto;
 }
@@ -351,25 +352,25 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 .tm-2-col-textbox-2 {
 	width: 100%;
 	padding: 25px;
-	margin-bottom: 30px; 
-	-ms-flex: 0 1 auto; 
-	    flex: 0 1 auto; 
+	margin-bottom: 30px;
+	-ms-flex: 0 1 auto;
+	    flex: 0 1 auto;
 	        /* Fix flexbox in IE 10 bug https://philipwalton.com/articles/normalizing-cross-browser-flexbox-bugs/ */
 }
 
 .tm-2-col-textbox-2:last-child { margin-bottom: 0; }
 
-.tm-3-col-textbox { 
-	max-width: 100%; 
+.tm-3-col-textbox {
+	max-width: 100%;
 	margin-bottom: 20px;
 	margin-right: 0;
 	-ms-flex: 0 1 auto;
-	    flex: 0 1 auto;	
+	    flex: 0 1 auto;
 }
 
-.tm-3-col-textbox:last-child { 
+.tm-3-col-textbox:last-child {
 	margin-bottom: 0;
-	margin-right: 0; 
+	margin-right: 0;
 }
 
 /* Gallery */
@@ -397,7 +398,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 	display: block;
 	max-width: 320px;
 	margin: 0 auto;
-	padding: 30px 1px;	
+	padding: 30px 1px;
 }
 
 .tm-img {
@@ -417,7 +418,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 
 #google-map {
     height: 430px;
-    width: 100%;    
+    width: 100%;
 }
 
 .col-xs-12 {
@@ -445,13 +446,13 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 	color: yellow;
 }
 
-.tm-form-group-left { 
-	padding-left: 0; 
+.tm-form-group-left {
+	padding-left: 0;
 	padding-right: 0;
 }
-.tm-form-group-right { 
+.tm-form-group-right {
 	padding-right: 0;
-	padding-left: 0; 
+	padding-left: 0;
 }
 
 /* Media Queries */
@@ -461,11 +462,11 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 	.cd-hero-slider h2.tm-text-title { font-size: 1.8em; }
 	.tm-textbox-padding { padding: 30px 40px; }
 	.tm-textbox-padding-contact { padding: 30px; }
-	.tm-img-gallery-container { 
+	.tm-img-gallery-container {
 		margin: 40px auto 20px;
-		max-width: 690px; 
+		max-width: 690px;
 	}
-	
+
 	.grid-item {
 		padding-left: 10px;
 		padding-right: 10px;
@@ -488,10 +489,10 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 }
 
 @media only screen and (min-width: 720px) {
-	
-	.tm-footer { 
-		-ms-flex-direction: row; 
-			flex-direction: row; 
+
+	.tm-footer {
+		-ms-flex-direction: row;
+			flex-direction: row;
 	}
 
 	.tm-copyright-text { margin-top: 0; }
@@ -507,27 +508,27 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 
 	.cd-hero-slider .cd-full-width { padding-top: 0; }
 
-	.tm-2-col-textbox {	
+	.tm-2-col-textbox {
 		margin-bottom: 0;
 		margin-right: 0;
 	}
 
-	.tm-2-col-textbox:last-child { margin-right: 0;	}	
+	.tm-2-col-textbox:last-child { margin-right: 0;	}
 
 	.tm-2-col-left { padding-right: 25px; }
-	.tm-2-col-right { 
-		padding-left: 25px; 
+	.tm-2-col-right {
+		padding-left: 25px;
 		padding-top: 0;
 	}
 
-	.tm-flex { 
-		display: -ms-flexbox; 
+	.tm-flex {
+		display: -ms-flexbox;
 		display: flex;
 		-ms-flex-pack: center;
 		    justify-content: center;
 	}
 
-	.tm-2-col-textbox-2 {	
+	.tm-2-col-textbox-2 {
 		margin-bottom: 0;
 		margin-right: 30px;
 		width: 100%;
@@ -535,13 +536,13 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 
 	.tm-2-col-textbox-2:last-child { margin-right: 0; }
 
-	.tm-form-group-left { 
-		padding-left: 0; 
+	.tm-form-group-left {
+		padding-left: 0;
 		padding-right: 10px;
 	}
-	.tm-form-group-right { 
+	.tm-form-group-right {
 		padding-right: 0;
-		padding-left: 10px; 
+		padding-left: 10px;
 	}
 }
 
@@ -559,14 +560,14 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 }
 
 @media only screen and (min-width: 992px) {
-	.tm-navbar-bg { 
-		padding-left: 25px; 
+	.tm-navbar-bg {
+		padding-left: 25px;
 		padding-right: 0;
 	}
 
 	.tm-navbar {
 		position: static;
-		height: auto !important;		
+		height: auto !important;
 	}
 
 	.cd-slider-nav .navbar-nav {
@@ -575,13 +576,13 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 		display: flex;
 	}
 
-	.cd-slider-nav li {	
-		display: inline-block; 
+	.cd-slider-nav li {
+		display: inline-block;
 		width: auto;
 		height: auto;
 	}
 
-	.cd-slider-nav a, 
+	.cd-slider-nav a,
 	.navbar-nav .nav-link {
 		height: 80px;
 	}
@@ -594,7 +595,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 		padding-right: 20px;
 	}
 
-	.tm-3-col-textbox { 
+	.tm-3-col-textbox {
 		margin-right: 30px;
 		margin-bottom: 0;
 	}
@@ -612,7 +613,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 }
 
 @media only screen and (min-width: 1170px) {
-	
+
 	.cd-hero-slider h2, .cd-hero-slider p { margin-bottom: 30px; }
 	.cd-hero-slider h2.tm-gallery-title { margin-bottom: 25px; }
 	.cd-hero-slider p:last-child { margin-bottom: 0; }
@@ -631,7 +632,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 	}
 	.cd-slider-nav a.navbar-brand { font-size: 3.5rem; }
 
-	.tm-brand-icon { 
+	.tm-brand-icon {
 		font-size: 3rem;
     	padding: 10px;
 		margin-right: 25px;
